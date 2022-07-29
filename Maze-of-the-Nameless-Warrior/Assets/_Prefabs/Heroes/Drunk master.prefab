@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2121951759540888758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121951759540888756}
+  - component: {fileID: 2121951759540888757}
+  m_Layer: 0
+  m_Name: Drunk master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2121951759540888756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121951759540888758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2121951759540888757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121951759540888758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef915118abda9594cb8831d07ab2e1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <UnitName>k__BackingField: Drunk master
+  <MaxHealth>k__BackingField: 45
+  <CurrentHealth>k__BackingField: 45
+  <DamageMin>k__BackingField: 14
+  <DamageMax>k__BackingField: 20
+  <InitiativeModifier>k__BackingField: 2
+  <MaxEnergy>k__BackingField: 20
+  <CurrentEnergy>k__BackingField: 20
+  <Ability>k__BackingField: {fileID: 11400000, guid: 6a98af69f18c29c41a7b3e8d972c0e40, type: 2}
