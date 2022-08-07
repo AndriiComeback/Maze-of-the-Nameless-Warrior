@@ -50,6 +50,5 @@ MonoBehaviour:
   <DamageMin>k__BackingField: 14
   <DamageMax>k__BackingField: 20
   <InitiativeModifier>k__BackingField: 2
-  <MaxEnergy>k__BackingField: 10
-  <CurrentEnergy>k__BackingField: 10
-  <Ability>k__BackingField: {fileID: 11400000, guid: f37c02e8bee64d740b991afd033b457d, type: 2}
+  maxEnergy: 10
+  ability: {fileID: 11400000, guid: f37c02e8bee64d740b991afd033b457d, type: 2}

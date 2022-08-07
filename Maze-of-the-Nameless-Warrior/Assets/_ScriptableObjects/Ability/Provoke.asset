@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Provoke
   m_EditorClassIdentifier: 
   <Title>k__BackingField: Drunk stance
-  <Description>k__BackingField: 
+  <Description>k__BackingField: '{0} enters defence.'
   <Type>k__BackingField: 1
   <Cost>k__BackingField: 10

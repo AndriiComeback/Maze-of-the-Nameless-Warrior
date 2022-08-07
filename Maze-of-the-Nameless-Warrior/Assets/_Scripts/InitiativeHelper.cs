@@ -20,7 +20,7 @@ public class InitiativeHelper {
         round++;
         inits.Clear();
         for (int i = 0; i < heroes.Count; i++) {
-            if (heroes[i] != null) {
+            if (heroes[i].CurrentHealth > 0) {
                 int init = Random.Range(1, 21) + heroes[i].InitiativeModifier;
                 inits.Add(new InitiativeIndex { index = i, initiative = init });
             }
@@ -36,6 +36,11 @@ public class InitiativeHelper {
         inits.RemoveAll(x => x.index == currentUnitIndex);
         if (inits.Count > 0) {
             currentUnitIndex = inits[0].index;
+            if (currentUnitIndex != 3) {
+                if (heroes[currentUnitIndex].CurrentHealth == 0) {
+                    MoveTurnOrder();
+                }
+            }
             return false;
         } else {
             RollInitiative();
@@ -44,8 +49,7 @@ public class InitiativeHelper {
     }
     public bool RemovePlayer(int index) {
         inits.RemoveAll(x => x.index == index);
-        heroes[index] = null;
-        return heroes[0] == null && heroes[1] == null && heroes[2] == null;
+        return heroes[0].CurrentHealth == 0 && heroes[1].CurrentHealth == 0 && heroes[2].CurrentHealth == 0;
     }
 }
 

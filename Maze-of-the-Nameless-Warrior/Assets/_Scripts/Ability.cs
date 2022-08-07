@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum AbilityType { Burst, Provoke, Blind, Protect, Stun }
+public enum AbilityType { Burst, Provoke, Blind, Protect, Stun, Meditate }
 
 [CreateAssetMenu(menuName = "MazeAdventure/Ability")]
 public class Ability : ScriptableObject
