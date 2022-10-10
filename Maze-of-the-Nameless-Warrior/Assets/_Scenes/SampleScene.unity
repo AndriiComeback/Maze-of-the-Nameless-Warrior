@@ -12527,7 +12527,6 @@ MonoBehaviour:
   enemyUnitsPrefabs:
   - {fileID: 4563447753754197860, guid: adaaac1dc2cf2f34bab5cc0098341a99, type: 3}
   - {fileID: 4563447753754197860, guid: adaaac1dc2cf2f34bab5cc0098341a99, type: 3}
-  - {fileID: 4563447753754197860, guid: adaaac1dc2cf2f34bab5cc0098341a99, type: 3}
   gameController: {fileID: 1427309249}
   lootRarity: 3
   goldReward: 13

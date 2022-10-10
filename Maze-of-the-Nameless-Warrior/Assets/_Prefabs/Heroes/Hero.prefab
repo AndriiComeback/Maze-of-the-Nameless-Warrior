@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef915118abda9594cb8831d07ab2e1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <UnitName>k__BackingField: Player 1
+  <UnitName>k__BackingField: The Chosen One
   <MaxHealth>k__BackingField: 60
   <CurrentHealth>k__BackingField: 60
   <DamageMin>k__BackingField: 14
